@@ -25,10 +25,6 @@ public abstract class Room {
                 return east;
             case 'W':
                 return west;
-            case 'U':
-                return up;
-            case 'D':
-                return down;
             default:
                 return null;
         }
